@@ -1,0 +1,25 @@
+{
+  "name": "file-text-parser",
+  "homepage": "https://github.com/eagle7410/file-text-parser",
+  "authors": [
+    "Igor Stcherbina"
+  ],
+  "description": "Parse text file in frontend.",
+  "main": "src/ig.file.parse.js",
+  "keywords": [
+    "ecma6",
+    "js5",
+    "js6",
+    "detected",
+    "ecma6"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eagle7410/file-text-parser"
+  },
+  "bugs": {
+    "url": "https://github.com/eagle7410/file-text-parser/issues"
+  }
+}
