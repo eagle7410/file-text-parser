@@ -7,11 +7,8 @@
   "description": "Parse text file in frontend.",
   "main": "src/ig.file.parse.js",
   "keywords": [
-    "ecma6",
-    "js5",
-    "js6",
-    "detected",
-    "ecma6"
+    "frontend",
+    "file parse"ru
   ],
   "version": "1.0.0",
   "license": "MIT",
@@ -21,5 +18,8 @@
   },
   "bugs": {
     "url": "https://github.com/eagle7410/file-text-parser/issues"
+  },
+  "dependencies": {
+    "es6-shim": "^0.35.3"
   }
 }
