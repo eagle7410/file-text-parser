@@ -4,6 +4,6 @@
 'use strict';
 
 $(() => {
-	let fileParse = new FileParseDebug();
+	window.fileParse = new FileParseDebug();
 	fileParse.init();
 });

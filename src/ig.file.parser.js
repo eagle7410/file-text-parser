@@ -279,9 +279,9 @@ class FileParse {
 	 */
 	dataClearAll() {
 		let that = this;
-		that.info[num] = {};
-		that.data[num] = {};
-		that.errs[num] = {};
+		that.info = {};
+		that.data = {};
+		that.errs = {};
 	}
 
 	/**
@@ -295,6 +295,14 @@ class FileParse {
 		that.errs[num] = [];
 	}
 
+	/**
+	 * Get result for instruction number instance.
+	 * @param {*} num
+	 * @returns {*}
+	 */
+	dataGet(num) {
+		return this.data[num];
+	}
 	//noinspection JSUnusedGlobalSymbols
 	/**
 	 * Check instance with instruction number be load file.
@@ -428,8 +436,6 @@ class FileParse {
 
 	}
 }
-
-/* exported FileParseDebug */
 
 /**
  *  Class for debug FileParse
