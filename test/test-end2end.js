@@ -19,6 +19,7 @@ let $buton;
 let browserGetResult = call => {
 	let isResultBad;
 	let isResultGood;
+	//noinspection JSUnresolvedFunction
 	driver.get('http://localhost:63342/file-text-parser/test/browser/test.html')
 		.then(() => {
 			$buton = driver.findElement(By.id('fileLoad1'));
@@ -46,7 +47,7 @@ let browserGetResult = call => {
 		});
 };
 
-describe('End-to-end', done => {
+describe('End-to-end', () => {
 	let isResultBad;
 	let isResultGood;
 
