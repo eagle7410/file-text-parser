@@ -8,9 +8,8 @@ or
 bower install file-text-parser --save
 ```
 ### Example used
-package.json
 
-```js
+```html
 	<head>
 	<link href='../../bower_components/components-font-awesome/css/font-awesome.min.css' rel='stylesheet'
 			type='text/css'/>
