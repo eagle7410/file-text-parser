@@ -3,7 +3,9 @@ Class for parse text file in browser. This is plugin used ecma6.
 For community used es6-sham.js and him used jquery. By default him used components-font-awesome.
 
 ```bash
-npm install file-text-parser
+npm install file-text-parser --save
+or
+bower file-text-parser --save
 ```
 ### Example used
 package.json
