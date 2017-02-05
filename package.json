@@ -21,6 +21,7 @@
     "grunt": "^1.0.1",
     "grunt-jsdoc-to-markdown": "^2.0.0",
     "grunt-mocha-test": "^0.13.2",
+    "minify-js": "0.0.4",
     "selenium-webdriver": "^3.0.1",
     "utils-igor": "^2.0.5"
   }

@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 					clearRequireCache: false, // Optionally clear the require cache before running tests (defaults to false)
 					noFail: false // Optionally set to not fail on failed tests (will still fail on other errors)
 				},
-				src: ['test/test-end2end.js']
+				src: [ 'test/*.js']
 			}
 		},
 		jsdoc2md: {
@@ -20,7 +20,6 @@ module.exports = function(grunt) {
 				src: 'src/*.js',
 				dest: 'api.md'
 			}
-
 		}
 	});
 	grunt.loadNpmTasks('grunt-jsdoc-to-markdown');
