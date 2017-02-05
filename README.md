@@ -57,7 +57,7 @@ package.json
 	</html>
 ```
 **Result:**
-![screenshot](https://raw.github.com/eagle7410/file-text-parser/result.jpg)
+![screenshot](https://raw.githubusercontent.com/eagle7410/file-text-parser/result.jpg)
 ### Version
 ----
 2.0.0
