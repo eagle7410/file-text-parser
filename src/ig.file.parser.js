@@ -113,6 +113,9 @@ let option = {
 	}
 };
 
+/**
+ *  Class for parse text file
+ */
 class FileParse {
 	constructor() {
 		ext(this, {
