@@ -5,7 +5,7 @@ For community used es6-sham.js and him used jquery. By default him used componen
 ```bash
 npm install file-text-parser --save
 or
-bower file-text-parser --save
+bower install file-text-parser --save
 ```
 ### Example used
 package.json
