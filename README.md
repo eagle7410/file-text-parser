@@ -65,10 +65,9 @@ Also, for debugging, you can use class FileParseDebug
     	fileParse.init();
 	</script>
 ```
-Also, have small version in file ig.file.parser.small.js. Him no have debug component.
-
 **Result:**
 ![screenshot](https://raw.githubusercontent.com/eagle7410/file-text-parser/master/debug.jpg)
+Also, have small version in file ig.file.parser.small.js. Him no have debug component.
 ### Api
 ## Classes
 
