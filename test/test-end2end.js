@@ -46,7 +46,7 @@ let browserGetResult = call => {
 		});
 };
 
-describe('Good', done => {
+describe('End-to-end', done => {
 	let isResultBad;
 	let isResultGood;
 
